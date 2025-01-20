@@ -1,0 +1,23 @@
+{
+  "name": "challenge-2",
+  "version": "1.0.0",
+  "description": "## Overview For this challenge, you need to write a function that: - Takes a number of minutes as input - Returns a string that converts it into hours and minutes - Handles edge cases appropriately",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.18.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.4.2"
+  }
+}
